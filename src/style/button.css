@@ -1,0 +1,82 @@
+.myButton {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #154169;
+  padding: 8px 20px 8px 20px;
+  border: solid #d3d3d3 2px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.myButton:hover {
+  background: #1a5083;
+  text-decoration: none;
+  cursor: pointer;
+}
+  .myButton:disabled {
+    cursor: default;
+    background: #bebebe;
+    color: #ffffff;
+  }
+
+  .myButton:focus{
+    outline: none;
+  }
+
+  .myButtonLeft {
+    background: #ffffff;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px 0px 0px 6px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    padding: 7px 15px 10px 19px;
+    border: solid #154169 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .myButtonLeft:hover{
+    background: #eeeeee;
+  }
+
+  .myButtonCenter {
+    background: #ffffff;
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    padding: 7px 15px 10px 19px;
+    border: solid #154169 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .myButtonCenter:hover{
+    background: #eeeeee;
+  }
+
+.myButtonRight {
+    margin-left: 0px;
+    background: #ffffff;
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 0px 6px 6px 0px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    padding: 7px 15px 10px 19px;
+    border: solid #154169 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .myButtonRight:hover{
+    background: #eeeeee;
+  }
+  /*@media (max-width:685px) {
+    .myButton{
+      
+    }
+}*/

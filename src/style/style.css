@@ -1,0 +1,80 @@
+.h1 {
+    color: #154169;
+    padding: 30px;
+    text-align: left;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: -4px;
+    font-style: normal;
+    font-variant: normal;
+  }
+
+.h1-modal{
+    background-color: #154169;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    text-align-last: center;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-size: 50px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.img{
+  padding: 30px;
+  cursor: pointer;
+}
+  .table {
+    border-collapse: collapse;/*juntamos los border por td y la tabla en si en uno solo*/
+    width: 100%;
+    border: 3px solid WHITE;
+    border-radius: 5px;
+  }
+  .th{
+    height: 30px;
+    text-align: center;/*Alineamos el texto al centro ---th por defecto esta alineado al centro*/
+    /* vertical-align: bottom; Alineamos el texto verticalmente hacia abajo*/
+    padding: 1px;
+    background-color:#154169;
+    color: white;
+    border: 3px solid WHITE;
+    /* border-radius: 15px; */
+    /*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+  }
+  .td{
+    height: 30px;
+    text-align: center;/*Alineamos el texto al centro ---th por defecto esta alineado al centro*/
+     /* vertical-align: bottom; Alineamos el texto verticalmente hacia abajo*/
+    padding: 1px;
+    border: 3px solid WHITE;
+    /*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+  }
+
+  .otro{
+    height: 30px;
+    padding: 1px;
+    font-size: 1rem;
+    text-align: left;
+    /*border-bottom: 1px solid #ddd;para borde solo horizontal*/
+  }
+
+  .cursor{
+    cursor: pointer;
+  }
+
+.vista {
+  padding: 40px;
+  padding-top: 20px;
+  max-width: 95%;
+  margin: auto;
+  border: 2px solid rgb(108, 147, 184);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
